@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     list-style-type:none;
+    text-decoration: none;
 }
+
 
 h2{
     color: #5B462A;
@@ -22,16 +24,48 @@ p{
     color: #5B462A;
 }
 
+/*header*/
+
+header{
+    height: 75px;
+    width: 1440px;
+    display: flex;
+    background-color: #E0D1C5;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+}
+
+header img{
+    height: 44px;
+    margin-left: 180px;
+    margin-top: 12px;
+}
+
+header ul{
+    display: flex;
+    width: 720px;
+    justify-content: space-between;
+    padding: 25px 180px 0 50px;
+}
+
+header a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #5B462A;
+}
+
 /*TOP*/
 .top{
     background-image: url(../images/top.png);
     background-size: cover;
     height: 1376px;
+    padding: 95px;
 }
 
 .soumu img {
     height: 173px;
-    margin-left: 200px;
+    margin-left: 50px;
     margin-bottom: 21px;
 }
 
@@ -45,7 +79,7 @@ p{
     height: 126px;
     margin-top: 63px;
     margin-bottom: 50px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .top p{
@@ -543,3 +577,44 @@ p{
     font-weight: bold;
 }
 
+.sns {
+    background-color: #E0D1C5;
+    height: 210px;
+    padding: 10px;
+}
+
+.sns h2{
+    text-align: center;
+}
+
+.twitter a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #85B6FF;
+    color: #5B462A;
+    width: 200px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 16px;
+    text-align: center;
+    margin-right: 50px;
+}
+.insta a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #D99BFF;
+    color: #5B462A;
+    width: 200px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 16px;
+    text-align: center;   
+    margin-left: 50px;
+}
+.sns-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
