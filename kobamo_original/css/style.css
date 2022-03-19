@@ -75,19 +75,16 @@ header a{
     overflow: hidden;
 }
 .inner-block {
-    width: 600px;
     margin: 0 auto;
-    position:relative;
 }
   
   
 .fade-img-box {
-    width: 500px;
-    height: 300px;
-    margin-left: auto;
+    width: 973px;
+    height: 634px;
+    margin: 0 auto;
     margin-top: 10px;
     position:relative;
-    border:10px solid #333;
 }
   
 .fade-img-box img {
