@@ -1,0 +1,780 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "KiwiMaru";
+    src: url('../font/KiwiMaru-Light.ttf');
+}
+
+
+h2{
+    color: #5B462A;
+    font-size: 45px;
+    font-family: 'KiwiMaru';
+}
+
+h3
+{
+    color: #5B462A;
+    font-family: 'KiwiMaru';
+}
+
+h4{
+    color: #5B462A;
+    font-family: 'KiwiMaru';
+}
+p{
+    color: #5B462A;
+    font-family: 'KiwiMaru';
+}
+a {
+    font-family: 'KiwiMaru';
+}
+
+/*header*/
+
+header{
+    height: 75px;
+    width: 1440px;
+    display: flex;
+    background-color: #E0D1C5;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+header img{
+    height: 44px;
+    margin-left: 180px;
+    margin-top: 12px;
+}
+
+header ul{
+    display: flex;
+    width: 720px;
+    justify-content: space-between;
+    padding: 25px 180px 0 50px;
+}
+
+header a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #5B462A;
+}
+
+/*TOP*/
+.top{
+    background-image: url(../images/top.png);
+    background-size: cover;
+    height: 1376px;
+    padding: 95px;
+}
+
+.soumu img {
+    height: 173px;
+    margin-left: 50px;
+    margin-bottom: 21px;
+}
+
+/*画像スライド*/
+.container{
+    overflow: hidden;
+}
+.inner-block {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+  
+  
+.fade-img-box {
+    height: 634px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position:relative;
+}
+  
+.fade-img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 634px;
+    object-fit:cover;
+    border-radius: 16px;
+}
+
+
+
+.jinteki img{
+    height: 126px;
+    margin-top: 63px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+.top p{
+    font-size: 20px;
+    margin-bottom: 95px;
+    text-align: center;
+}
+
+/*HOW TO*/
+
+.howto{
+    padding: 95px 0px;
+    background-image: url(../images/section1.png);
+    height: 860px;
+    width: 1440px;
+}
+.howto-one{
+    display: flex;
+    justify-content: center;
+}
+
+.one img{
+    height: 86px;
+}
+
+.howto h2{
+    margin: 0px 50px 0px 25px;
+}
+
+.jintekipic {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.slider{
+    width: 900px;
+    margin: 0 auto;
+}
+.slider img{
+    margin: 0;
+}
+.slider_item{
+    width: 300px;
+}
+
+
+.howto-text{
+    margin: 0 auto;
+    text-align: center;
+}
+.howto P{
+    display: inline-block;
+    text-align: left;
+}
+
+
+/*WHO IS*/
+.whois{
+    padding: 95px 0px; 
+    background-image: url(../images/section2.png);
+    height: 1665px;
+}
+
+.whois-two{
+    display: flex;
+    justify-content: center;
+}
+
+.two img{
+    height: 86px;
+}
+
+.whois h2{
+    margin: 0px 50px 0px 25px;   
+}
+
+.whois-text{
+  margin: 70px auto 81px;  
+  text-align: center;
+}
+.whois p{
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.intro h3{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.intro h4{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.intro p{
+    font-size: 16px;
+}
+
+.kobashin{
+    display: flex;
+}
+
+.kobashinpic{
+    width: 245px;
+    height: 320px;
+    border: 10px solid #E0D1C5;
+    border-radius: 20px ;
+    margin: 0 85px 0 265px;
+}
+.kobashin img{
+    width: 225px;
+    border-radius: 10px;
+}
+
+.chanmomo {
+    display: flex;
+    margin-left: 265px;
+    margin-top: 100px;
+}
+.chanmomopic{
+    width: 245px;
+    height: 320px;
+    border: 10px solid #E0D1C5;
+    border-radius: 20px ;
+    margin: 0 0 0 85px;
+}
+
+.chanmomo img{
+    width: 225px;
+    border-radius: 10px;  
+}
+
+.hayato{
+    display: flex;
+    margin-top: 100px;
+}
+
+.hayatopic{
+    width: 245px;
+    height: 320px;
+    border: 10px solid #E0D1C5;
+    border-radius: 20px ;
+    margin: 0 85px 0 265px; 
+}
+.hayato img{
+    width: 225px;
+    border-radius: 10px;
+}
+
+/*WORKS*/
+
+.works{
+    padding: 95px 0px; 
+    background-image: url(../images/section3.png);
+    height: 1091px;
+}
+
+.works-three{
+    display: flex;
+    justify-content: center;
+}
+
+.three img{
+    height: 86px;
+}
+
+.works h2{
+    margin: 0px 50px 0px 25px;   
+}
+
+.works h3{
+    margin: 30px 0 13px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.works-text{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.works p{
+    font-size: 16px;
+}
+.works span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.month h3{
+    font-size: 40px;
+}
+
+.month p{
+    font-size: 24px;
+}
+.month .yajirushi{
+    margin:0 60px 0 387px;
+}
+.yajirushi img{
+    height: 95px;
+}
+
+
+.june {
+    display: flex;
+    align-items: center;
+}
+.june h3{
+    margin: 0 60px 0 0;
+}
+
+.july{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.july h3{
+    margin: 0 60px 0 0;
+}
+
+.september{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.september h3{
+    margin: 0 60px 0 0;
+}
+
+.october{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.october h3{
+    margin:0 30px 0 0;
+}
+
+.november{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.november h3{
+    margin:0 30px 0 0;
+}
+
+/*Q&A*/
+.qa{
+    padding: 95px 0px; 
+    background-image: url(../images/section4.png);
+    height: 1300px;
+}
+
+.qa-four{
+    display: flex;
+    justify-content: center;
+}
+
+.four img{
+    height: 86px;
+    margin-right: 60px;
+}
+
+.qa h2{
+    margin: 0px 50px 0px 10px;   
+}
+
+.qa p{
+    margin-top: 25px;
+    font-size: 20px;
+   text-align: center;
+}
+
+/* チェックボックスは非表示 */
+.accordion-hidden{
+    display: none;
+  }
+  
+  /* Question部分 */
+  .accordion-open1 {
+    display: block;
+    padding: 20px;
+    background: rgba(60, 172, 179, 1);
+    cursor: pointer;
+    margin: 5px 261px 0 261px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #5B462A;
+    position: relative;/* 変更部分 */
+    font-family: 'KiwiMaru';
+  }
+  .accordion-open2 {
+    display: block;
+    padding: 20px;
+    background: rgba(217, 109, 111, 1);
+    cursor: pointer;
+    margin: 5px 261px 0 261px;
+    font-size: 24px;
+    color: #5B462A;
+    text-align: center;
+    font-weight: bold;
+    position: relative;/* 変更部分 */
+    font-family: 'KiwiMaru';
+  }
+  .accordion-open3 {
+    display: block;
+    padding: 20px;
+    background: rgba(209, 222, 76, 1);
+    cursor: pointer;
+    margin: 5px 261px 0 261px;
+    font-size: 24px;
+    color: #5B462A;
+    text-align: center;
+    font-weight: bold;
+    position: relative;/* 変更部分 */
+    font-family: 'KiwiMaru';
+  }
+  
+
+  /* QとAのデザイン */
+  .accordion-open1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background:rgba(60, 172, 179, 1);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left:0;
+    font-family: 'KiwiMaru';
+  }
+  .accordion-open2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background:rgba(217, 109, 111, 1);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left:0;font-family: 'KiwiMaru';
+  }
+  .accordion-open3 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background:rgba(209, 222, 76, 1);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left:0;
+    font-family: 'KiwiMaru';
+  }
+    /* Answer部分 */
+    .accordion-close1 {
+        display: block;
+        height: 0;/* 要素の高さは0 */
+        overflow: hidden;/* 非表示 */
+        padding: 10px 10px 10px 200px;
+        margin: 5px 261px 0 261px;
+        opacity: 0;
+        transition: 0.5s;/* 表示速度の設定 */
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .accordion-close2 {
+        display: block;
+        height: 0;/* 要素の高さは0 */
+        overflow: hidden;/* 非表示 */
+        padding: 10px 10px 10px 200px;
+        margin: 5px 261px 0 261px;
+        opacity: 0;
+        transition: 0.5s;/* 表示速度の設定 */
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .accordion-close3 {
+        display: block;
+        height: 0;/* 要素の高さは0 */
+        overflow: hidden;/* 非表示 */
+        padding: 10px 10px 10px 200px;
+        margin: 5px 261px 0 261px;
+        opacity: 0;
+        transition: 0.5s;/* 表示速度の設定 */
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+      }
+  
+  .accordion-close1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background:rgba(255, 255, 255, 1);;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+  }
+  .accordion-close2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background:rgba(255, 255, 255, 1);;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+  }
+  .accordion-close3 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background:rgba(255, 255, 255, 1);;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+  }
+  
+  /* チェックボックスにチェックが入ったらAnswer部分を表示する */
+  .accordion-hidden:checked + .accordion-open1 + .accordion-close1 {
+    height: auto;
+    opacity: 1;
+    color: #5B462A;
+    padding: 10px 10px 10px 200px;
+    margin: 5px 261px 0 261px;
+    background: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-family: 'KiwiMaru';
+  }
+  .accordion-hidden:checked + .accordion-open2 + .accordion-close2 {
+    height: auto;
+    opacity: 1;
+    color: #5B462A;
+    padding: 10px 10px 10px 200px;
+    margin: 5px 261px 0 261px;
+    background: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-family: 'KiwiMaru';
+  }
+  .accordion-hidden:checked + .accordion-open3 + .accordion-close3 {
+    height: auto;
+    opacity: 1;
+    color: #5B462A;
+    padding: 10px 10px 10px 200px;
+    margin: 5px 261px 0 261px;
+    background: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-family: 'KiwiMaru';
+  }
+
+.qa1{
+    margin-top: 100px;
+    z-index:-1 ;
+
+}
+.qa2{
+    margin-top: 100px;
+    z-index:-1 ;
+}
+.qa3{
+    margin-top: 100px;
+    z-index:-1 ;
+}
+
+/*MESSAGE*/
+.message{
+    padding: 95px 0px; 
+    background-image: url(../images/section5.png);
+    height: 471px;
+}
+
+.message-five{
+    display: flex;
+    justify-content: center;
+}
+
+.five img{
+    height: 86px;
+}
+
+.message h2{
+    margin: 0px 50px 0px 25px;   
+}
+
+.message p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.message-text p{
+    margin: 54px 0 13px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sns {
+    background-color: #E0D1C5;
+    height: 210px;
+    padding: 10px;
+}
+
+.sns h2{
+    text-align: center;
+}
+
+.twitter a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #85B6FF;
+    color: #5B462A;
+    width: 200px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 16px;
+    text-align: center;
+    margin-right: 50px;
+}
+.insta a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #D99BFF;
+    color: #5B462A;
+    width: 200px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 16px;
+    text-align: center;   
+    margin-left: 50px;
+}
+.sns-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+    header{
+        display: none;
+    }
+
+    .top{
+        background-image: url(../images/sp/1.jpeg);
+    }
+
+    .howto{
+        padding: 70px 0;
+        background-image: url(../images/sp/2\ section1.jpeg);
+        width: 1080px;
+       height: 848px;
+    }
+
+    .container{
+        margin-left: 20px;;
+    }
+
+    .soumu img{
+        margin: 0 0 21px 0;
+    }
+    .soumu {
+       width: 448.73px;
+       margin: 0 auto;
+    }
+    .jinteki img{
+       margin: 0 auto;
+    }
+
+    .jinteki {
+        margin-top: 63px;
+        margin-bottom: 50px;
+    }
+
+    .whois {
+        background-image: url(../images/sp/3\ section2.jpeg);
+    }
+
+   .kobashinpic{
+       margin-left: 80px;
+   }
+
+   .chanmomo{
+       margin-left: 100px;
+   }
+   .chanmomopic{
+       margin-left: 40px;
+   }
+
+   .hayatopic{
+       margin-left: 100px;
+   }
+    .works{
+        background-image: url(../images/sp/4\ section3.jpeg);
+        width: 1080px;
+        padding: 40px 0 ;
+    }
+
+    .month .yajirushi{
+        margin:0 60px 0 200px;
+    }
+
+    .qa{
+        background-image: url(../images/sp/5\ section4.jpeg);
+    }
+
+    .qa1{
+        margin-top: 100px;
+    
+    }
+    .qa2{
+        margin-top: 70px;
+    
+    }
+    .qa3{
+        margin-top: 70px;
+    
+    }
+    .accordion-hidden:checked + .accordion-open1 + .accordion-close1 {
+        padding: 10px 80px 10px 100px;
+        margin: 5px 261px 0 261px;
+      }
+      .accordion-hidden:checked + .accordion-open2 + .accordion-close2 {
+        padding: 10px 80px 10px 100px;
+        margin: 5px 261px 0 261px;
+      }
+      .accordion-hidden:checked + .accordion-open3 + .accordion-close3 {
+        padding: 10px 80px 10px 100px;
+        margin: 5px 261px 0 261px;
+      }
+
+
+    .message{
+        background-image: url(../images/sp/6\ section5.jpeg);
+    }
+}
